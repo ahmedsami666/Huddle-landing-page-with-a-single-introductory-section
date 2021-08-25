@@ -8,10 +8,12 @@ body {
     padding: 5%;
     color: #ffffff;
 }
+/*logo img*/
 .logo {
     padding: 4% 0 0 4%;
     width: 15%;
 }
+/*mockup section*/
 .mockup{
     width: 55%;
     position: relative;
@@ -23,6 +25,7 @@ body {
     float: left;
     padding-bottom: auto;
 }
+/*text section*/
 .main-text{
     width: 45%;
     position: relative;
@@ -53,6 +56,10 @@ button{
     font-size: 1rem;
     color: hsl(257, 40%, 49%);
 }
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+/*contact*/
 .contact{
     width: 100%;
     display: inline-block;
@@ -64,8 +71,12 @@ i{
     padding: 10px;
     margin-left: 0.75rem;
 }
+i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
 
-/**********************/
+/*mobile*/
 @media (max-width: 375px) {
     body{
         background-image: url(images/bg-mobile.svg);
